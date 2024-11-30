@@ -5,6 +5,7 @@ from logger import logging
 from exception import CustomException
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
+
 @dataclass
 class DataIngestionConfig:
     train_data_path: str=os.path.join("artifacts","train.csv")
